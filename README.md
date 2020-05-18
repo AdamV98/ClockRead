@@ -9,7 +9,8 @@ Python3 code for reading the time off of clocks.
 
 *Numpy
 
-# Testing
+# USAGE
 
 The script has a lightweight user interface.
 
+It does not accept command line arguments.
