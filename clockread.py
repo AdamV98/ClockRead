@@ -4,17 +4,17 @@ import math
 
 cv2.namedWindow('Kep')
 
-image = ['faliora.jpg', 'faliora2.jpg', 'faliora4_zaj.jpg', 'faliora7.jpg', 'faliora8.jpg', 'faliora9_zaj.jpg']
+image = ['clock.jpg', 'clock2.jpg', 'clock3.jpg', 'clock4_noise.jpg', 'clock5.jpg', 'clock6.jpg', 'clock7.jpg', 'clock8.jpg', 'clock9_noise.jpg']
 
-print('A program mukodese:\nA csuszkan allitsa be a kivant kepet,\nmajd nyomja meg az Enter billentyut\na szamitas elvegzesehez.\nAz eredmenyt a program a konzolra irja ki.\n')
-print('A programbol valo kilepeshez nyomja meg a q billentyut!\n')
+print('Using th program:\nSet a number on the trackbar,\nthen push the Enter key\nto start computing the time.\nThe time will be written to the console.\n')
+print('To exit the program push the "q" key!\n')
 
 def kepbetolt(kep):
     src = cv2.imread(image[kep], cv2.IMREAD_COLOR)
     return src
 
 
-cv2.createTrackbar('kep', 'Kep', 0, 5, kepbetolt)
+cv2.createTrackbar('kep', 'Kep', 0, 8, kepbetolt)
 
 
 while(True):

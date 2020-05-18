@@ -1,2 +1,15 @@
 # ClockRead
-OpenCV Python3 code for reading the time off of clocks. It requires NumPy to work as well.
+Python3 code for reading the time off of clocks. 
+
+# REQUIREMENTS
+
+*Python3
+
+*OpenCV2
+
+*Numpy
+
+# Testing
+
+The script has a lightweight user interface.
+
